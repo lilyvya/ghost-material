@@ -17,6 +17,7 @@
     <div class="navbar--spacer"></div>
     <!-- Links -->
     {{> "navbar"}}
+  </div>
 </nav>
 
 
@@ -37,11 +38,6 @@
     <!-- Titles -->
     <h1 class="header--title">{{title}}</h1>
     <h5 class="header--subtitle">
-      <i class="mdi mdi-calendar"></i>
-      <time datetime="{{date format='YYYY-MM-DD'}}"
-        itemprop="datePublished">
-        {{date format='MMM DD, YYYY'}}
-      </time>
     </h5>
   </div>
   <!-- Background -->
@@ -53,14 +49,6 @@
 </header>
 
 
-<!-- Fabs -->
-<div class="fabbar large">
-  <div class="fabbar--content container">
-    {{> "sharefab"}}
-  </div>
-</div>
-
-
 {{! Post Main }}
 <main class="main" role="main">
   <article class="main--content container" role="article">
@@ -68,18 +56,6 @@
     {{! Content }}
     <div class="post--content">{{content}}</div>
     <div class="divider"></div>
-
-    {{! Tags }}
-    <div class="post--tags half">
-      {{#foreach tags}}
-        <a class="ripple" href="{{url}}" title="{{name}}">{{name}}</a>
-      {{/foreach}}
-    </div>
-
-    {{! Share }}
-    <div class="post--share half">
-      {{> "sharedrop"}}
-    </div>
 
     {{! Author }}
     <div class="post--author">
@@ -94,20 +70,4 @@
 <div>
   <div id="disqus_thread" class="container"></div>
 </div>
-
-
-{{! Next and previous }}
-<aside class="side">
-  <div class="side--content container">
-    <div class="side--left">
-      {{#next_post}}{{> "navcard"}}{{/next_post}}
-      <span class="msg">No newer post</span>
-    </div>
-    <div class="side--right">
-      {{#prev_post}}{{> "navcard"}}{{/prev_post}}
-      <span class="msg">No older post</span>
-    </div>
-  </div>
-</aside>
-
 {{/post}}

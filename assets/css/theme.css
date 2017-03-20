@@ -125,9 +125,11 @@ a:hover {
 }
 .footer a {
   color: #B2DFDB;
+  fill: #B2DFDB;
 }
 .footer a:hover {
   color: #FFFFFF;
+  fill: #FFFFFF;
 }
 .footer--top {
   color: #80cbc4;

@@ -458,6 +458,14 @@ strong, b {
   margin-right: auto;
   align-self: center;
 }
+.fab svg {
+  width: 1.45rem;
+  height: 1.45rem;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  fill: white;
+}
 .fab.large i {
   font-size: 2rem;
 }
@@ -531,6 +539,12 @@ strong, b {
   font-size: .9rem;
   border-radius: 5px;
   text-align: center;
+}
+.button svg {
+  width: 1rem;
+  height: 1rem;
+  transform: translate(0, 0.8px);
+  fill: white;
 }
 .button.solid {
   background-color: grey;
@@ -931,6 +945,11 @@ strong, b {
 .footer--suscriptions i {
   font-size: 2rem;
 }
+.footer--suscriptions svg {
+  width: 1.7rem;
+  height: 1.7rem;
+  transform: translate(-0.8px, 0.8px);
+}
 .footer--bottom {
   background-color: rgba(51,51,51,0.08);
 }
@@ -987,6 +1006,9 @@ strong, b {
   .hide-on-medium {
     display: none !important;
   }
+  .text {
+    display: inline !important;
+  }
 }
 
 /* -------------------------------------------------------------------------- *
@@ -1009,6 +1031,10 @@ strong, b {
   background-color: #3b5998 !important;
   color: white;
 }
+.weibo {
+  background-color: #e32529 !important;
+  color: white;
+}
 
 /* -------------------------------------------------------------------------- *
  * Animations defaults
@@ -1023,4 +1049,35 @@ strong, b {
 }
 .wave {
   display: none;
+}
+
+/* -------------------------------------------------------------------------- *
+ * Archives
+ * -------------------------------------------------------------------------- */
+.archives .item {
+    padding: 20px 0 12px 120px;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+.archives h3 {
+	font-size: 15px;
+    font-weight: bold;
+    margin: 4px 0 0 -120px;
+    float: left;
+}
+.archives-list {
+    list-style: none;
+    font-size: 14px;
+    line-height: 20px;
+}
+.archives-list li {
+    padding: 3px 0;
+    overflow: hidden;
+}
+.archives-list time {
+    margin-right: 5px;
+    color: #999;
+    display: inline-block;
+    width: 35px;
+    font-family: monospace;
 }
