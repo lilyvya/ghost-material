@@ -1,6 +1,7 @@
 [原README](https://github.com/amor520/ghost-material/blob/master/README.md)  
 
 #### 自用配置  
+demo: [loli.world](https://loli.world/)
 
 * 导航栏更改  
   * 刀法不精湛，无法使用后台设置，需要自己在 /partials/navbar.hbs 更改  
