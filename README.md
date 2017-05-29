@@ -1,10 +1,10 @@
-[原README](https://github.com/amor520/ghost-material/blob/master/README.md)  
+[原README](https://github.com/nauzethc/ghost-material/blob/master/README.md)  
 
 #### 自用配置  
-demo: [loli.world](https://loli.world/)  
+demo see my [blog](https://loli.world/)  
 
 * 导航栏更改  
-  * 刀法不精湛，无法使用后台设置，需要自己在 /partials/navbar.hbs 更改  
+  * 技术不行，还是无法使用后台设置，需要自己在 /partials/navbar.hbs 更改  
 * 增加了微博社交和分享图标  
 * 增加了归档页面  
   * 需自建一个链接为 /archives-post/ 的空白页  
